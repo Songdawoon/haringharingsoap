@@ -26,9 +26,8 @@ export default function Home() {
             {menuOpen ? "✕" : "☰"}
           </button>
           <ul
-            className={`${
-              menuOpen ? "block" : "hidden"
-            } md:flex gap-8 absolute md:relative top-full left-0 right-0 md:top-auto bg-white md:bg-transparent p-4 md:p-0 border-b md:border-b-0 border-gray-100`}
+            className={`${menuOpen ? "block" : "hidden"
+              } md:flex gap-8 absolute md:relative top-full left-0 right-0 md:top-auto bg-white md:bg-transparent p-4 md:p-0 border-b md:border-b-0 border-gray-100`}
           >
             <li>
               <Link href="/story" className="text-gray-700 hover:text-primary">
