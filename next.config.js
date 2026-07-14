@@ -2,8 +2,11 @@
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
-  basePath: '',
+  basePath: '/haringharingsoap',
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
