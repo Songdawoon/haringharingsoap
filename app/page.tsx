@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
@@ -13,12 +12,10 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-            <Image
-              src="/images/logo.png"
+            <img
+              src="/haringharingsoap/images/logo.png"
               alt="하링하링솝 로고"
-              width={50}
-              height={50}
-              className="rounded-full"
+              className="w-12 h-12 rounded-full"
             />
             <span className="text-xl font-bold text-gray-900 hidden sm:inline">하링하링솝</span>
           </Link>
@@ -75,12 +72,10 @@ export default function Home() {
       <section className="bg-gradient-to-b from-pink-50 to-white py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="mb-8 flex justify-center">
-            <Image
-              src="/images/logo.png"
+            <img
+              src="/haringharingsoap/images/logo.png"
               alt="하링하링솝 로고"
-              width={180}
-              height={180}
-              className="rounded-full shadow-lg"
+              className="w-44 h-44 rounded-full shadow-lg"
             />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
